@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from statsmodels.stats.outliers_influence import variance_inflation_factor
+# from statsmodels.stats.outliers_influence import variance_inflation_factor
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Ridge, Lasso, ElasticNet, BayesianRidge, HuberRegressor, TheilSenRegressor, SGDRegressor
